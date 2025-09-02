@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kids Coding Portfolio</title>
+  <!-- link to custom css -->
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h2>Ayomide's Portfolio</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="contact-btn">Contact</a>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#">Home</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hello, I’m <br><strong>Ayomide Obe</strong></h1>
+      <p>
+        I'm a young coder learning basics of Computer, HTML, CSS, and Python at <strong> SABI PROGRAMMERS</strong>.  
+        I love building fun projects like games, websites, and apps.  
+        I enjoy making things creative and colorful to share with my friends and family.
+      </p>
+      <button onclick="sayHello()">Say Hello!</button>
+    </div>
+    <div class="hero-img">
+      <img src="images/p2.PNG" alt="Student Picture">
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education" id="education">
+    <h2>My Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <h3>Primary School</h3>
+        <p>I am currently in Primary 3 where I enjoy learning Maths, English, and Coding with my friends.</p>
+      </div>
+      <div class="edu-card">
+        <h3>Secondary School</h3>
+        <p>I have not started Secondary School,but i am looking foward to learn more about science, technology, and programming.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/p1.PNG" alt="Project 1">
+        <h3>My First Website</h3>
+        <p>I built my first website using HTML and CSS. It has a colorful design and shows my favorite hobbies.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/p4.PNG" alt="Project 2">
+        <h3>Style.css</h3>
+        <p>A styling webpage where i decorate my website.</project>
+      </div>
+      <div class="project-card">
+        <img src="images/p3.PNG" alt="Project 3">
+        <h3>Drawing App</h3>
+        <p>This project lets me draw on the screen with different colors. I made it using HTML Canvas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>My summer Holiday coding Journey ❤️ at SABI PROGRAMMERS| &copy; 2025</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
